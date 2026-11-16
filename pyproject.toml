@@ -1,0 +1,16 @@
+[project]
+name = "generation-interval-cleanup"
+version = "1.0.0"
+description = "Counts prompt executions and requests model unloading and memory cleanup at a specified interval."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/nobinBB/ComfyUI-GenerationIntervalCleanup"
+Documentation = "https://github.com/nobinBB/ComfyUI-GenerationIntervalCleanup#readme"
+"Bug Tracker" = "https://github.com/nobinBB/ComfyUI-GenerationIntervalCleanup/issues"
+
+[tool.comfy]
+PublisherId = "nobin"
+DisplayName = "Generation Interval Cleanup"
